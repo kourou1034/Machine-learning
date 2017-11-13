@@ -39,6 +39,8 @@ P(A|B)=P(B|A)∗P(A)P(B)
 
 对于给出的待分类项，求解在此项目出现的条件下各个目标类别出现的概率，哪个最大，就认为此待分类项属于哪个类别。
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=p(c_{i})=\frac{p(w|c_i)p(c_i)}{p(w)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p(c_{i})=\frac{p(w|c_i)p(c_i)}{p(w)}" title="p(c_{i})=\frac{p(w|c_i)p(c_i)}{p(w)}" /></a>
+
 ### 工作原理
 - 1.假设现在有样本x=（a1,a2,a3,...,an）这个待分类项（并认为x里面的特征独立）
 - 2.再假设现在有分类目标Y={y1,y2,y3,...,yn}
@@ -56,5 +58,5 @@ P(yi)表示全部类别中这个类别出现的概率
 
 朴素贝叶斯算法的【朴素】在于 这样一个假设：每个单词（特征）出现的可能性完全独立，每个单词（特征）对于判定文档类型同等重要。
 
-  
+
   
